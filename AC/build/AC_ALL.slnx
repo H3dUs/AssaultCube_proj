@@ -5,7 +5,7 @@
 		<BuildType Name="Release"/>
 		<BuildType Name="MinSizeRel"/>
 		<BuildType Name="RelWithDebInfo"/>
-		<Platform Name="win32"/>
+		<Platform Name="Win32"/>
 	</Configurations>
 	<Project Path="AC_ALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4aff78f9-6156-3271-95ac-3d4dd88e3f32">
 		<BuildDependency Project="ZERO_CHECK.vcxproj"/>

@@ -5,12 +5,12 @@ set(CMAKE_CXX_STANDARD 20)
 
 # === ЖЕСТКИЙ СБРОС НА СТАТИЧЕСКУЮ ЛИНКОВКУ (/MT) ===
 if(MSVC)
-    # Заменяем динамический рантайм (/MD) на статический (/MT) во всех флагах компилятора
-    string(REPLACE "/MD" "/MT" CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE}")
-    string(REPLACE "/MD" "/MT" CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG}")
-    
-    # На всякий случай дублируем современным методом CMake
-    set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
+    # Используем современный метод CMake для статической линковки рантайма (/MT для Release, /MTd для Debug)
+    # Убираем старые флаги /MD*, чтобы не было конфликтов
+    foreach(flag_var CMAKE_CXX_FLAGS CMAKE_CXX_FLAGS_RELEASE CMAKE_CXX_FLAGS_DEBUG CMAKE_CXX_FLAGS_MINSIZEREL CMAKE_CXX_FLAGS_RELWITHDEBINFO)
+        string(REGEX REPLACE "/MDd" "/MTd" ${flag_var} "${${flag_var}}")
+        string(REGEX REPLACE "/MD" "/MT" ${flag_var} "${${flag_var}}")
+    endforeach()
 endif()
 
 # === IMGUI ===

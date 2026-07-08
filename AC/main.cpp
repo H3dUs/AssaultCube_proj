@@ -8,6 +8,9 @@
 #include "imgui/backends/imgui_impl_win32.h"
 #include "imgui/backends/imgui_impl_opengl2.h"
 
+// Forward declaration for ImGui WndProc handler (newer ImGui hides it behind #if 0)
+extern IMGUI_IMPL_API LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
+
 // === ГЛОБАЛЫ ===
 uintptr_t jmpBackAddr;
 uintptr_t localPlayerPtrAddr;
@@ -339,7 +342,7 @@ BOOL __stdcall hkwglSwapBuffers(HDC hdc) {
         ImGui::StyleColorsDark();
 
         HWND hwnd = WindowFromDC(hdc);
-        oWndProc = (WNDPROC)SetWindowLongPtr(hwnd, GWL_WNDPROC, (LONG_PTR)hkWndProc);
+        oWndProc = (WNDPROC)SetWindowLongPtr(hwnd, GWLP_WNDPROC, (LONG_PTR)hkWndProc);
 
         ImGui_ImplWin32_Init(hwnd);
         ImGui_ImplOpenGL2_Init();
@@ -355,7 +358,7 @@ BOOL __stdcall hkwglSwapBuffers(HDC hdc) {
 
             // Восстанавливаем оригинальный WndProc
             HWND hwnd = WindowFromDC(hdc);
-            SetWindowLongPtr(hwnd, GWL_WNDPROC, (LONG_PTR)oWndProc);
+            SetWindowLongPtr(hwnd, GWLP_WNDPROC, (LONG_PTR)oWndProc);
             
             imguiShutdownDone = true;
             renderCleanedUp = true; // Сигнализируем о завершении очистки
