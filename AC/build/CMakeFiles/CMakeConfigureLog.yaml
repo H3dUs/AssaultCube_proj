@@ -60,6 +60,7 @@ events:
         - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Python313"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -96,9 +97,9 @@ events:
       The output was:
       0
       ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.7.8+1ac568fee ╨┤╨╗╤П .NET Framework
-      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 08.07.2026 2:29:28.
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 08.07.2026 17:54:38.
       
-      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\reverse\\AC\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\Documents\\GitHub\\AssaultCube_proj\\AC\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       PrepareForBuild:
         ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
         ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
@@ -111,7 +112,7 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\reverse\\AC\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\Documents\\GitHub\\AssaultCube_proj\\AC\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
@@ -119,13 +120,13 @@ events:
       FinalizeBuildStatus:
         ╨д╨░╨╣╨╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
         ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\reverse\\AC\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\Documents\\GitHub\\AssaultCube_proj\\AC\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       
       ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
           ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
           ╨Ю╤И╨╕╨▒╨╛╨║: 0
       
-      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.51
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.80
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -133,7 +134,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/Дмитрий/reverse/AC/build/CMakeFiles/4.3.1-msvc1/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/Дмитрий/Documents/GitHub/AssaultCube_proj/AC/build/CMakeFiles/4.3.1-msvc1/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "find-v1"
@@ -182,6 +183,7 @@ events:
       - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Microsoft/WindowsApps/"
@@ -222,6 +224,7 @@ events:
         - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Python313"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -279,6 +282,7 @@ events:
       - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Microsoft/WindowsApps/"
@@ -365,6 +369,9 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Python313/lld-link.com"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Python313/lld-link.exe"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Python313/lld-link"
@@ -423,6 +430,7 @@ events:
         - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Python313"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -478,6 +486,7 @@ events:
       - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Microsoft/WindowsApps/"
@@ -518,6 +527,7 @@ events:
         - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Python313"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -573,6 +583,7 @@ events:
       - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Microsoft/WindowsApps/"
@@ -643,6 +654,7 @@ events:
         - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Python313"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -698,6 +710,7 @@ events:
       - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Microsoft/WindowsApps/"
@@ -738,6 +751,7 @@ events:
         - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Python313"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -796,6 +810,7 @@ events:
       - "C:/Windows/System32/config/systemprofile/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/\u0014<8B@89/AppData/Local/Microsoft/WindowsApps/"
@@ -878,6 +893,7 @@ events:
         - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Python313"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Programs\\Python\\Launcher\\"
         - "C:\\Users\\\u0014<8B@89\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -903,8 +919,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/\u0414\u043c\u0438\u0442\u0440\u0438\u0439/reverse/AC/build/CMakeFiles/CMakeScratch/TryCompile-cvazza"
-      binary: "C:/Users/\u0414\u043c\u0438\u0442\u0440\u0438\u0439/reverse/AC/build/CMakeFiles/CMakeScratch/TryCompile-cvazza"
+      source: "C:/Users/\u0414\u043c\u0438\u0442\u0440\u0438\u0439/Documents/GitHub/AssaultCube_proj/AC/build/CMakeFiles/CMakeScratch/TryCompile-oe5ena"
+      binary: "C:/Users/\u0414\u043c\u0438\u0442\u0440\u0438\u0439/Documents/GitHub/AssaultCube_proj/AC/build/CMakeFiles/CMakeScratch/TryCompile-oe5ena"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -915,39 +931,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Дмитрий/reverse/AC/build/CMakeFiles/CMakeScratch/TryCompile-cvazza'
+        Change Dir: 'C:/Users/Дмитрий/Documents/GitHub/AssaultCube_proj/AC/build/CMakeFiles/CMakeScratch/TryCompile-oe5ena'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_681c0.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2d658.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
         ╨Т╨╡╤А╤Б╨╕╤П MSBuild 18.7.8+1ac568fee ╨┤╨╗╤П .NET Framework
-        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 08.07.2026 2:29:29.
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 08.07.2026 17:54:39.
         
-        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\reverse\\AC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvazza\\cmTC_681c0.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\Documents\\GitHub\\AssaultCube_proj\\AC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oe5ena\\cmTC_2d658.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
           ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\reverse\\AC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvazza\\Debug\\".
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_681c0.dir\\Debug\\cmTC_681c0.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\Documents\\GitHub\\AssaultCube_proj\\AC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oe5ena\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_2d658.dir\\Debug\\cmTC_2d658.tlog\\".
         InitializeBuildStatus:
-          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_681c0.dir\\Debug\\cmTC_681c0.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_681c0.dir\\Debug\\cmTC_681c0.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_2d658.dir\\Debug\\cmTC_2d658.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_2d658.dir\\Debug\\cmTC_2d658.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_681c0.dir\\Debug\\\\" /Fd"cmTC_681c0.dir\\Debug\\vc145.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2d658.dir\\Debug\\\\" /Fd"cmTC_2d658.dir\\Debug\\vc145.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x86
           (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_681c0.dir\\Debug\\\\" /Fd"cmTC_681c0.dir\\Debug\\vc145.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_2d658.dir\\Debug\\\\" /Fd"cmTC_2d658.dir\\Debug\\vc145.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\reverse\\AC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvazza\\Debug\\cmTC_681c0.exe" /INCREMENTAL /ILK:"cmTC_681c0.dir\\Debug\\cmTC_681c0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/╨Ф╨╝╨╕╤В╤А╨╕╨╣/reverse/AC/build/CMakeFiles/CMakeScratch/TryCompile-cvazza/Debug/cmTC_681c0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/╨Ф╨╝╨╕╤В╤А╨╕╨╣/reverse/AC/build/CMakeFiles/CMakeScratch/TryCompile-cvazza/Debug/cmTC_681c0.lib" /MACHINE:X86  /machine:X86 cmTC_681c0.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_681c0.vcxproj -> C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\reverse\\AC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvazza\\Debug\\cmTC_681c0.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x86\\link.exe /OUT:"C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\Documents\\GitHub\\AssaultCube_proj\\AC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oe5ena\\Debug\\cmTC_2d658.exe" /INCREMENTAL /ILK:"cmTC_2d658.dir\\Debug\\cmTC_2d658.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/╨Ф╨╝╨╕╤В╤А╨╕╨╣/Documents/GitHub/AssaultCube_proj/AC/build/CMakeFiles/CMakeScratch/TryCompile-oe5ena/Debug/cmTC_2d658.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/╨Ф╨╝╨╕╤В╤А╨╕╨╣/Documents/GitHub/AssaultCube_proj/AC/build/CMakeFiles/CMakeScratch/TryCompile-oe5ena/Debug/cmTC_2d658.lib" /MACHINE:X86  /machine:X86 cmTC_2d658.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2d658.vcxproj -> C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\Documents\\GitHub\\AssaultCube_proj\\AC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oe5ena\\Debug\\cmTC_2d658.exe
         FinalizeBuildStatus:
-          ╨д╨░╨╣╨╗ "cmTC_681c0.dir\\Debug\\cmTC_681c0.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
-          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_681c0.dir\\Debug\\cmTC_681c0.tlog\\cmTC_681c0.lastbuildstate".
-        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\reverse\\AC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cvazza\\cmTC_681c0.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+          ╨д╨░╨╣╨╗ "cmTC_2d658.dir\\Debug\\cmTC_2d658.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_2d658.dir\\Debug\\cmTC_2d658.tlog\\cmTC_2d658.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\Users\\╨Ф╨╝╨╕╤В╤А╨╕╨╣\\Documents\\GitHub\\AssaultCube_proj\\AC\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oe5ena\\cmTC_2d658.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         
         ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
             ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨Ю╤И╨╕╨▒╨╛╨║: 0
         
-        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.53
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:00.48
         
       exitCode: 0
   -

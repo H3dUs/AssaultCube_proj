@@ -1,31 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Дмитрий\reverse\AC\imgui\imgui.cpp">
+    <ClCompile Include="C:\Users\Дмитрий\Documents\GitHub\AssaultCube_proj\AC\imgui\imgui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Дмитрий\reverse\AC\imgui\imgui_draw.cpp">
+    <ClCompile Include="C:\Users\Дмитрий\Documents\GitHub\AssaultCube_proj\AC\imgui\imgui_draw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Дмитрий\reverse\AC\imgui\imgui_widgets.cpp">
+    <ClCompile Include="C:\Users\Дмитрий\Documents\GitHub\AssaultCube_proj\AC\imgui\imgui_widgets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Дмитрий\reverse\AC\imgui\imgui_tables.cpp">
+    <ClCompile Include="C:\Users\Дмитрий\Documents\GitHub\AssaultCube_proj\AC\imgui\imgui_tables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Дмитрий\reverse\AC\imgui\backends\imgui_impl_win32.cpp">
+    <ClCompile Include="C:\Users\Дмитрий\Documents\GitHub\AssaultCube_proj\AC\imgui\backends\imgui_impl_win32.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Дмитрий\reverse\AC\imgui\backends\imgui_impl_opengl2.cpp">
+    <ClCompile Include="C:\Users\Дмитрий\Documents\GitHub\AssaultCube_proj\AC\imgui\backends\imgui_impl_opengl2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Дмитрий\reverse\AC\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Дмитрий\Documents\GitHub\AssaultCube_proj\AC\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{694D1DA3-E3B2-32CB-8881-4E58F98D5BFA}</UniqueIdentifier>
+      <UniqueIdentifier>{1D7FB784-63D6-3C72-BEE0-93E08143F4EF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

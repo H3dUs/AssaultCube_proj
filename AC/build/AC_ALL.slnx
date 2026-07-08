@@ -7,11 +7,11 @@
 		<BuildType Name="RelWithDebInfo"/>
 		<Platform Name="win32"/>
 	</Configurations>
-	<Project Path="AC_ALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2092b092-e21e-322a-9f68-70a84675e7fc">
+	<Project Path="AC_ALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4aff78f9-6156-3271-95ac-3d4dd88e3f32">
 		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 		<BuildDependency Project="imgui_lib.vcxproj"/>
 	</Project>
-	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="dc8a238a-fcbf-3cc9-87df-c177538afd5c" DefaultStartup="true">
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b34b23df-4168-3ed0-ba6f-aac3384411a3" DefaultStartup="true">
 		<BuildDependency Project="AC_ALL.vcxproj"/>
 		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 		<BuildDependency Project="imgui_lib.vcxproj"/>
@@ -20,8 +20,8 @@
 		<Build Solution="MinSizeRel|*" Project="false"/>
 		<Build Solution="RelWithDebInfo|*" Project="false"/>
 	</Project>
-	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5b77bd3c-3228-3382-b9c8-9ecd9a88abe3"/>
-	<Project Path="imgui_lib.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="caa6256a-4c03-3d46-9555-500103854b90">
+	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6c5d0217-685a-37ac-9e79-3672716f692b"/>
+	<Project Path="imgui_lib.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="670e4e30-29e1-3f47-b788-4b232e57123c">
 		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
 	</Project>
 </Solution>

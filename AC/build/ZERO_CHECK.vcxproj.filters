@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Дмитрий\reverse\AC\build\CMakeFiles\ed06c06b677df43936a40b4541186c07\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\Дмитрий\Documents\GitHub\AssaultCube_proj\AC\build\CMakeFiles\c6190e9590ef648b7591702529a1fca9\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{5A339364-3243-3B56-A8BB-AEDC52109B8E}</UniqueIdentifier>
+      <UniqueIdentifier>{A1B8654D-DFC1-3650-A83E-A313689CA05C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

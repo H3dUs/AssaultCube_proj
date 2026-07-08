@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Дмитрий\reverse\AC\build\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\Дмитрий\Documents\GitHub\AssaultCube_proj\AC\build\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Дмитрий\reverse\AC\build\Debug\MySuperHookDLL.dll</FullPath>
+      <FullPath>C:\Users\Дмитрий\Documents\GitHub\AssaultCube_proj\AC\build\Debug\AC_ALL.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Дмитрий\reverse\AC\build\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\Дмитрий\Documents\GitHub\AssaultCube_proj\AC\build\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
