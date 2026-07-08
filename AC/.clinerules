@@ -1,0 +1,4 @@
+CRITICAL RULE FOR EDITING FILES:
+When you use the 'write_to_file' or 'edit_file' tools, NEVER delete existing code outside the modified function. 
+If you only need to change 20 lines of code, rewrite ONLY those 20 lines using precise SEARCH/REPLACE blocks. 
+Do NOT replace the whole 400-line file with a shortened snippet. Always preserve the DllMain, hooks, and global variables.
