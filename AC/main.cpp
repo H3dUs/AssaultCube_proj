@@ -532,7 +532,7 @@ DWORD WINAPI MainThread(HMODULE hModule) {
         Sleep(5);
     }
 
-    // Wait for rendering thread to clean up
+    // Wait for rendering thread to clean uB
     while (!renderCleanedUp) { Sleep(10); }
 
     // Safe hook destruction
